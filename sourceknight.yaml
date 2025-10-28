@@ -9,6 +9,12 @@ project:
       unpack:
         - source: /addons
           dest: /addons
+    - name: pf2
+      type: git
+      repo: https://github.com/Pre-Fortress-2/PF2-Tools
+      unpack:
+        - source: /sourcemod/scripting/include
+          dest: /addons/sourcemod/scripting/include
 
   root: /
   output: /addons/sourcemod/plugins
