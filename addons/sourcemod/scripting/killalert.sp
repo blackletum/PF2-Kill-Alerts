@@ -14,7 +14,7 @@ public Plugin myinfo =
 {
 	name = "PF2 Kill Alerts",
 	author = "blackletum",
-	original_author = "evilscout",
+	// original_author = "evilscout",
 	description = "Informs all players on server when someone gets a unique kill.",
 	version = "1.3",
 	url = "lambdafortress.com"
