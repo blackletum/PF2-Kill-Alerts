@@ -40,6 +40,7 @@ public Action:Event_player_death(Handle:event, const String:name[], bool:dontBro
 		StrContains(wep, "obj_d") == 0 ||
 		StrContains(wep, "obj_t") == 0 ||
 		StrContains(wep, "tele") == 0 ||
+		StrContains(wep, "play") == 0 ||
 		// grenades.
 		StrContains(wep, "normal_projectile_b") == 0 ||
 		StrContains(wep, "concussion_projectile_b") == 0 ||
@@ -69,6 +70,8 @@ public Action:Event_player_death(Handle:event, const String:name[], bool:dontBro
 				ShowSyncHudText(idx, hudsync, "%N just killed %N with a TELEPORTER EXPLOSION!", attacker, victim);
 				else if (StrContains(wep, "tele") == 0)
 				ShowSyncHudText(idx, hudsync, "%N just killed %N with a TELEFRAG!", attacker, victim);
+				else if (StrContains(wep, "play") == 0)
+				ShowSyncHudText(idx, hudsync, "%N just killed %N with a GOOMBA!", attacker, victim);
 				else
 				ShowSyncHudText(idx, hudsync, "%N just killed %N with a GRENADE BONK!", attacker, victim);
 			}
