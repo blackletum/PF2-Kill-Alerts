@@ -13,10 +13,10 @@ Handle hudsync;
 public Plugin myinfo =
 {
 	name = "PF2 Kill Alerts",
-	author = "evilscout",
-	description = "Tells players when they get a cool ass kill.",
+	author = "blackletum",
+	description = "Informs all players on server when someone gets a unique kill.",
 	version = "1.2.1",
-	url = "https://nailgunworld.com"
+	url = ""
 };
 
 public OnPluginStart() 
@@ -25,7 +25,7 @@ public OnPluginStart()
 	HookEvent("player_death", Event_player_death);
 }
 
-public Action:Event_player_death(Handle:event, const String:name[], bool:dontBroadcast) {  // Maybe the worst code god has ever known but I feel proud anyways
+public Action:Event_player_death(Handle:event, const String:name[], bool:dontBroadcast) {
 	char wep[64];
 	char attackername[MAX_NAME_LENGTH+1];
 	char victimname[MAX_NAME_LENGTH+1];
