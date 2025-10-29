@@ -26,8 +26,10 @@ I haven’t been able to get those working yet, so if anyone knows how to proper
 
 ### Included Files
 | `killalert.smx` | Precompiled plugin ready to use |
+
 | `killalert.sp` | Source file for editing or contributing |
-| `killalert.inc` | Include file used to resolve definition errors |
+
+| `pf2.inc` | Include file used to resolve definition errors |
 
 ---
 
