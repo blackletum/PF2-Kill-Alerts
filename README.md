@@ -30,6 +30,7 @@ A kill alert plugin for **Pre-Fortress 2** (intended for 0.7.4) that announces u
 ### Included Files
 
 | `killalert.smx` | Precompiled plugin ready to use |
+
 | `killalert.sp` | Source file for editing or contributing |
 
 ---
