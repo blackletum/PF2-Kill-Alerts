@@ -72,7 +72,7 @@ public Action:Event_player_death(Handle:event, const String:name[], bool:dontBro
 				else if (StrContains(wep, "tele") == 0)
 				ShowSyncHudText(idx, hudsync, "%N just killed %N with a TELEFRAG!", attacker, victim);
 				else if (StrContains(wep, "play") == 0)
-				ShowSyncHudText(idx, hudsync, "%N just killed %N with a GOOMBA!", attacker, victim);
+				ShowSyncHudText(idx, hudsync, "%N just humiliated %N!", attacker, victim);
 				else
 				ShowSyncHudText(idx, hudsync, "%N just killed %N with a GRENADE BONK!", attacker, victim);
 			}
